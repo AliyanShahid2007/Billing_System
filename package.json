@@ -1,8 +1,8 @@
 {
-  "name": "arif-book-center-billing",
+  "name": "asif-book-center-billing",
   "private": true,
   "version": "1.0.0",
-  "description": "Complete Billing Management System for Arif Book Center",
+  "description": "Complete Billing Management System for Asif Book Center",
   "type": "module",
   "main": "dist-electron/main.js",
   "homepage": "./",
@@ -16,8 +16,8 @@
     "electron:dist": "npm run build && electron-builder --publish=never"
   },
   "build": {
-    "appId": "com.arifbookcenter.billing",
-    "productName": "Arif Book Center - Billing System",
+    "appId": "com.asifbookcenter.billing",
+    "productName": "Asif Book Center - Billing System",
     "directories": {
       "output": "dist-electron"
     },
