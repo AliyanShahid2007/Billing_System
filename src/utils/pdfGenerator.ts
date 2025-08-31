@@ -18,7 +18,7 @@ export class PDFGenerator {
     doc.setFont('helvetica', 'bold');
     doc.setFontSize(24);
     doc.setTextColor(30, 64, 175); // Blue color
-    doc.text('Arif Book Center', 105, 25, { align: 'center' });
+    doc.text('Asif Book Center', 105, 25, { align: 'center' });
     
     // Company details
     doc.setFontSize(10);
