@@ -18,14 +18,14 @@ export class PDFGenerator {
     doc.setFont('helvetica', 'bold');
     doc.setFontSize(24);
     doc.setTextColor(30, 64, 175); // Blue color
-    doc.text('Asif Book Center', 105, 25, { align: 'center' });
+    doc.text('KYN-Billing', 105, 25, { align: 'center' });
     
     // Company details
     doc.setFontSize(10);
     doc.setFont('helvetica', 'normal');
     doc.setTextColor(100, 100, 100);
     doc.text('Complete Book Store Solution', 105, 35, { align: 'center' });
-    doc.text('Phone: +92-XXX-XXXXXXX | Email: info@asifbookcenter.com', 105, 42, { align: 'center' });
+    doc.text('Phone: +92-XXX-XXXXXXX | Email: info@KYN-Billing.com', 105, 42, { align: 'center' });
     
     // Invoice header
     doc.setDrawColor(200, 200, 200);
@@ -107,7 +107,7 @@ export class PDFGenerator {
     doc.setFontSize(9);
     doc.setFont('helvetica', 'italic');
     doc.setTextColor(100, 100, 100);
-    doc.text('Thank you for choosing Asif Book Center!', 105, pageHeight - 20, { align: 'center' });
+    doc.text('Thank you for choosing KYN Billing!', 105, pageHeight - 20, { align: 'center' });
     doc.text('Visit us again for all your book needs', 105, pageHeight - 15, { align: 'center' });
     
     // Save the PDF
