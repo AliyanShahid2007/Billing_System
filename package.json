@@ -1,8 +1,8 @@
 {
-  "name": "asif-book-center-billing",
+  "name": "KYN-Billing",
   "private": true,
   "version": "1.0.0",
-  "description": "Complete Billing Management System for Asif Book Center",
+  "description": "Complete Billing Management System",
   "type": "module",
   "main": "dist-electron/main.js",
   "homepage": "./",
@@ -16,8 +16,8 @@
     "electron:dist": "npm run build && electron-builder --publish=never"
   },
   "build": {
-    "appId": "com.asifbookcenter.billing",
-    "productName": "Asif Book Center - Billing System",
+    "appId": "com.KYN Billing.billing",
+    "productName": "KYN - Billing System",
     "directories": {
       "output": "dist-electron"
     },
