@@ -50,7 +50,7 @@ export function Header({ onDataImported }: HeaderProps) {
             <BookOpen className="w-8 h-8 text-white" />
           </div>
           <div>
-            <h1 className="text-3xl font-bold text-gray-800">Asif Book Center</h1>
+            <h1 className="text-3xl font-bold text-gray-800">KYN-Billing</h1>
             <p className="text-gray-600">Complete Billing Management System</p>
           </div>
         </div>
