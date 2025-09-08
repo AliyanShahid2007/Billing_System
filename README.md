@@ -1,4 +1,4 @@
-# Arif Book Center - Billing System
+# KYN - Billing System
 
 A complete billing management system built with React, TypeScript, and Electron for desktop deployment.
 
@@ -46,10 +46,10 @@ This will create distributable files in the `dist-electron` folder that you can 
 
 ## Company Information
 
-**Arif Book Center**
+**KYN**
 Complete Book Store Solution
 Phone: +92-XXX-XXXXXXX
-Email: info@arifbookcenter.com
+Email: info@KYN.com
 
 ---
 
